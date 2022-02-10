@@ -18,5 +18,3 @@ console.log(a, b)
 
 b %= 2 // b = b % 2
 console.log(a, b) // Resto da divisão (Par = 0 e Impar = 1)
-
-
