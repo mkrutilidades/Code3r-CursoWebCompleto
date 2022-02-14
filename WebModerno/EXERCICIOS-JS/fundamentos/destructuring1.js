@@ -8,7 +8,9 @@ const pessoa = {
   }
 }
 
-const { nome, idade } = pessoa // Aqui eu estou pedindo para tirar de dentro do objeto pessoa, as propriedades nome e idade
+// Vamos pedir para tirar de dentro do objeto pessoa, as propriedades nome e idade
+// sem a utilizar o ponto como referência, vamos usar o operador destructuring para isso
+const { nome, idade } = pessoa 
 console.log(nome, idade)
 
 const { nome:n, idade: i } = pessoa
