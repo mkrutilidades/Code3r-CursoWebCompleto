@@ -1,7 +1,7 @@
 const moduloA = require('./moduloA')
 console.log(moduloA.ola)
 
-const c = require('./pastaC')
+const c = require('./pastaA/pastaB/pastaC')
 console.log(c.ola2)
 
 const http = require('http')
