@@ -8,7 +8,7 @@ function logThis() {
   console.log('Dentro de uma função...')
   console.log(this === exports)
   console.log(this === module.exports)
-  console.log(this === global) // Detro de uma função ele aponta para global
+  console.log(this === global) // Dentro de uma função ele aponta para global
 }
 
 logThis()
