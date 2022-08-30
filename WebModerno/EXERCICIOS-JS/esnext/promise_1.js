@@ -14,4 +14,5 @@ let p = new Promise(function(cumprirPromessa) {
   .then(primeiroElemento)
   .then(primeiraLetra)
   .then(letraMinuscula)
-  .then(console.log)
+  .then(v => console.log(v))
+  // .then(console.log)
