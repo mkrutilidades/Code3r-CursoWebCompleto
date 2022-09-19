@@ -41,7 +41,10 @@
   document.querySelectorAll('[wm-folfer]').forEach(folder => {
     folder.onclick = function(e) {
       debugger
-      console.log('teste')
+      const ul = folder.nextElementSibling
+      const d = ul.style.display
+      ul.style.display = d === 'none' ? 'block' : 'none'
+      console.log(ul)
     }
   })
 </script>
