@@ -5,7 +5,30 @@
     <meta charset="UTF-8">
     <title>Especificidade CSS</title>
     <style>
-        /* https://developer.mozilla.org/pt-BR/docs/Web/CSS/Specificity */
+        /*https://developer.mozilla.org/pt-BR/docs/Web/CSS/Specificity */
+        /*
+            * Em linhas gerais...
+            1. Regra com !important
+            2. Seletores mais específicos
+            3. Ultima regra processada (empate)
+        */
+
+        p {
+            background-color: green;
+        }
+
+        .observacao {
+            background-color: red;
+            border: dashed 5px;
+            padding: 20px;
+            font-size: 40px;
+        }
+
+        p.observacao {
+            padding: 2px 60px;
+            background: linear-gradient(to rigth, blue black);
+        }
+
     </style>
 </head>
 
